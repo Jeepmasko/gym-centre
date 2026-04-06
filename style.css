@@ -142,3 +142,10 @@ body {
     border: white solid 2px;
     transition: 1.2s;
 }
+
+
+.bannerright img {
+    width: 60%;
+    transform: scaleX(-1);
+    
+}
