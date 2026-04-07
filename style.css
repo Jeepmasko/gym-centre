@@ -6,8 +6,8 @@ body {
 .header {
     width: 100%;
     height: 90vh;
+<<<<<<< HEAD
     background-image: linear-gradient(rgba(22, 9, 1, 0.671), rgba(90, 42, 11, 0.5)),url(img/banner.jpg);
-    margin: auto;
     background-repeat:no-repeat;
     background-size: cover;
     padding: 20px;
