@@ -152,7 +152,7 @@ body {
 /* end of header */
 
 .boxholder {
-    width: 96%;
+    width: 98%;
     height: 40vh;
     /* background: red; */
     margin: auto;
@@ -166,7 +166,7 @@ body {
 }
 
 .boxholder .box1 {
-    width: 33.3%;
+    width: 24.5%;
     height: 100%;
     padding: 10PX;
     border: solid rgb(236, 7, 7) 2px;
@@ -177,7 +177,7 @@ body {
 }
 
 .boxholder .box2 {
-    width: 33.3%;
+    width: 24.5%;
     height: 100%;
     border: solid rgb(236, 7, 7) 2px;
     display: flex;
@@ -187,7 +187,7 @@ body {
 }
 
 .boxholder .box3 {
-    width: 33.3%;
+    width: 24.5%;
     height: 100%;
     border: solid rgb(236, 7, 7) 2px;
     display: flex;
@@ -197,7 +197,7 @@ body {
 }
 
 .boxholder .box4 {
-    width: 33.3%;
+    width: 24.5%;
     height: 100%;
     border: solid rgb(236, 7, 7) 2px;
     display: flex;
@@ -205,6 +205,8 @@ body {
     border-top-left-radius: 15px;
     border-bottom-right-radius: 15px;
 }
+
+/* BOSX1 START */
 
 .boxholder .box1 h4 {
     text-align: center;
@@ -233,6 +235,114 @@ body {
 }
 
 .boxholder .box1 button:hover {
+    background: red;
+    border: white solid 2px;
+    color: white;
+    transition: 1.2s;
+}
+/* box1 */
+
+.boxholder .box2 h4 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: red;
+    font-size: 30px;
+    margin-top: 8px;
+}
+
+.boxholder .box2 p {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+}
+
+.boxholder .box2 button {
+    padding: 10px;
+    border-radius: 8px;
+    border: solid red 2px;
+    background: transparent;
+    color: black;
+    display: block;
+    margin: auto;
+    margin-top: auto;
+}
+
+.boxholder .box2 button:hover {
+    background: red;
+    border: white solid 2px;
+    color: white;
+    transition: 1.2s;
+}
+
+/* BOX2 */
+
+
+
+.boxholder .box3 h4 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: red;
+    font-size: 30px;
+    margin-top: 8px;
+}
+
+.boxholder .box3 p {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+}
+
+.boxholder .box3 button {
+    padding: 10px;
+    border-radius: 8px;
+    border: solid red 2px;
+    background: transparent;
+    color: black;
+    display: block;
+    margin: auto;
+    margin-top: auto;
+}
+
+.boxholder .box3 button:hover {
+    background: red;
+    border: white solid 2px;
+    color: white;
+    transition: 1.2s;
+}
+
+/* BOX3 */
+
+
+
+.boxholder .box4 h4 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: red;
+    font-size: 30px;
+    margin-top: 8px;
+}
+
+.boxholder .box4 p {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+}
+
+.boxholder .box4 button {
+    padding: 10px;
+    border-radius: 8px;
+    border: solid red 2px;
+    background: transparent;
+    color: black;
+    display: block;
+    margin: auto;
+    margin-top: auto;
+}
+
+.boxholder .box4 button:hover {
     background: red;
     border: white solid 2px;
     color: white;
