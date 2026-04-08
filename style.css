@@ -152,7 +152,7 @@ body {
 /* end of header */
 
 .boxholder {
-    width: 90%;
+    width: 96%;
     height: 40vh;
     background: red;
     margin: auto;
@@ -160,4 +160,6 @@ body {
     display: flex;
     gap: 10px;
     margin-bottom: 20px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
