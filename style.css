@@ -167,7 +167,7 @@ body {
 .boxholder .box1 {
     width: 33.3%;
     height: 100%;
-    background: white;
+    border-radius: solid white 2px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -178,7 +178,7 @@ body {
 .boxholder .box2 {
     width: 33.3%;
     height: 100%;
-    background: white;
+    border-radius: solid white 2px;
     display: flex;
     flex-direction: column;
 }
@@ -186,7 +186,7 @@ body {
 .boxholder .box3 {
     width: 33.3%;
     height: 100%;
-    background: white;
+    border-radius: solid white 2px;
     display: flex;
     flex-direction: column;
 }
@@ -194,7 +194,7 @@ body {
 .boxholder .box4 {
     width: 33.3%;
     height: 100%;
-    background: white;
+    border-radius: solid white 2px;
     display: flex;
     flex-direction: column;
 }
