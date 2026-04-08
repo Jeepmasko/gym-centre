@@ -148,3 +148,15 @@ body {
     transform: scaleX(-1);
     
 }
+
+/* end of header */
+
+.boxholder {
+    width: 90%;
+    height: 70vh;
+    background: red;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
