@@ -167,7 +167,6 @@ body {
 
 .boxholder .box1 {
     width: 24.5%;
-    height: 100%;
     padding: 10PX;
     border: solid rgb(236, 7, 7) 2px;
     display: flex;
@@ -178,7 +177,6 @@ body {
 
 .boxholder .box2 {
     width: 24.5%;
-    height: 100%;
     border: solid rgb(236, 7, 7) 2px;
     display: flex;
     flex-direction: column;
@@ -188,7 +186,6 @@ body {
 
 .boxholder .box3 {
     width: 24.5%;
-    height: 100%;
     border: solid rgb(236, 7, 7) 2px;
     display: flex;
     flex-direction: column;
@@ -198,7 +195,6 @@ body {
 
 .boxholder .box4 {
     width: 24.5%;
-    height: 100%;
     border: solid rgb(236, 7, 7) 2px;
     display: flex;
     flex-direction: column;
