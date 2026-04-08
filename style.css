@@ -154,7 +154,7 @@ body {
 .boxholder {
     width: 96%;
     height: 40vh;
-    background: red;
+    /* background: red; */
     margin: auto;
     margin-top: 20px;
     display: flex;
@@ -162,39 +162,79 @@ body {
     margin-bottom: 20px;
     border-top-left-radius: 15px;
     border-bottom-right-radius: 15px;
+    padding: 20px;
 }
 
 .boxholder .box1 {
     width: 33.3%;
     height: 100%;
-    border-radius: solid white 2px;
+    padding: 10PX;
+    border: solid rgb(236, 7, 7) 2px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    padding: 20px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 .boxholder .box2 {
     width: 33.3%;
     height: 100%;
-    border-radius: solid white 2px;
+    border: solid rgb(236, 7, 7) 2px;
     display: flex;
     flex-direction: column;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 .boxholder .box3 {
     width: 33.3%;
     height: 100%;
-    border-radius: solid white 2px;
+    border: solid rgb(236, 7, 7) 2px;
     display: flex;
     flex-direction: column;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 .boxholder .box4 {
     width: 33.3%;
     height: 100%;
-    border-radius: solid white 2px;
+    border: solid rgb(236, 7, 7) 2px;
     display: flex;
     flex-direction: column;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.boxholder .box1 h4 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: red;
+    font-size: 30px;
+    margin-top: 8px;
+}
+
+.boxholder .box1 p {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+}
+
+.boxholder .box1 button {
+    padding: 10px;
+    border-radius: 8px;
+    border: solid red 2px;
+    background: transparent;
+    color: black;
+    display: block;
+    margin: auto;
+    margin-top: auto;
+}
+
+.boxholder .box1 button:hover {
+    background: red;
+    border: white solid 2px;
+    color: white;
+    transition: 1.2s;
 }
